@@ -1,0 +1,40 @@
+{
+  "responsive" : {
+    "0": {
+      "columns": 1,
+      "gap": 12
+    },
+    "426": {
+      "columns": 1,
+      "gap": 18
+    },
+    "576" : {
+      "columns": 1,
+      "gap": 24
+    },
+    "626": {
+      "columns": 2,
+      "gap": 12
+    },
+    "768": {
+      "columns": 2,
+      "gap": 18
+    },
+    "848": {
+      "columns": 2,
+      "gap": 24
+    },
+    "922": {
+      "columns": 3,
+      "gap": 12
+    },
+    "992": {
+      "columns": 3,
+      "gap": 18
+    },
+    "1200": {
+      "columns": 3,
+      "gap": 24
+    }
+  }
+}

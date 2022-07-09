@@ -4,10 +4,11 @@ include ../../template/gallery
 
 block variables
   - json = require("../../template/norway.json");
+  - cls = require("../../js/cls.json");
   - title = json.header.title
 
 block header
-  +page-header(json)
+  +page-header(json, cls)
 block main
-  main.page__main
-    +gallery(json)
+  main(class=cls.main)
+    +gallery(json, cls, parent)

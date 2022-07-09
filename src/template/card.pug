@@ -1,4 +1,4 @@
-mixin card(obj, parent)
+mixin card(obj, cls, parent)
 
   -
     name = "card"
@@ -6,7 +6,7 @@ mixin card(obj, parent)
     pictures_path = "./img/pictures/norway"
 
   article(class=class_name)
-    div.card__content
+    div(class=cls["card-content"])
       h3.card__title #{obj.title}
       p.card__description #{obj.text}
       button.card__button(type="button") Read more
@@ -16,4 +16,5 @@ mixin card(obj, parent)
         img(
           src=`${pictures_path}/${obj.name}.jpg`
           loading="lazy"
+          alt=`${obj.title}`
         )&attributes({"width" : obj.width, "height" : obj.height})

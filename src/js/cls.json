@@ -1,0 +1,7 @@
+{
+  "gallery-list": "gallery__list",
+  "active": "masonry-active",
+  "card-content": "card__content",
+  "page-header": "page-header",
+  "main": "page__main"
+}

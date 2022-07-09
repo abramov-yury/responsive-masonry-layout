@@ -1,6 +1,6 @@
 include ./card
 
-mixin gallery(json, parent)
+mixin gallery(json, cls, parent)
 
   -
     name = "gallery"
@@ -9,7 +9,7 @@ mixin gallery(json, parent)
 
   section(class=class_name)
     h2.gallery__title.visually-hidden #{json["gallery"].title}
-    ul.gallery__list.js-gallery__list
+    ul(class=cls["gallery-list"])
       each item in cards
         li.gallery__item
-          +card(item, "gallery")
+          +card(item, cls, "gallery")

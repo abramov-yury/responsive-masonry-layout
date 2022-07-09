@@ -1,0 +1,27 @@
+.gallery
+  display: flex
+  flex-direction: column
+
+  max-width: 1200px
+  margin: 0 auto
+  padding: 24px 0
+
+.gallery__list
+  position: relative
+
+  margin: 0
+  padding: 0
+
+  list-style: none
+
+.gallery__list.masonry-active > .gallery__item
+  opacity: 1
+
+.gallery__item
+  position: absolute
+
+  top: 0
+  left: 0
+
+  opacity: 0
+  will-change: transform
