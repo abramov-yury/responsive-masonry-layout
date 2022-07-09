@@ -1,7 +1,8 @@
 mixin page-header(json, parent)
 
-  -
-    name = "page-header"
-    class_name = parent ? `${parent}__${name} ${name}` : name
+  - name = "page-header"
+  - class_name = parent ? `${parent}__${name} ${name}` : name
 
   header(class=class_name)
+    .page-header__container
+      h1.page-header__title #{json.header.title}

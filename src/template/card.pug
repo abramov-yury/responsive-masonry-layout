@@ -1,0 +1,19 @@
+mixin card(obj, parent)
+
+  -
+    name = "card"
+    class_name = parent ? `${parent}__${name} ${name}` : name
+    pictures_path = "./img/pictures/norway"
+
+  article(class=class_name)
+    div.card__content
+      h3.card__title #{obj.title}
+      p.card__description #{obj.text}
+      button.card__button(type="button") Read more
+    div.card__wrapper-picture
+      picture.card__picture
+        source(type="image/webp" srcset=`${pictures_path}/${obj.name}.webp`)
+        img(
+          src=`${pictures_path}/${obj.name}.jpg`
+          loading="lazy"
+        )&attributes({"width" : obj.width, "height" : obj.height})

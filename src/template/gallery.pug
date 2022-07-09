@@ -1,0 +1,15 @@
+include ./card
+
+mixin gallery(json, parent)
+
+  -
+    name = "gallery"
+    class_name = parent ? `${parent}__${name} ${name}` : name
+    cards = json["gallery"].items
+
+  section(class=class_name)
+    h2.gallery__title.visually-hidden #{json["gallery"].title}
+    ul.gallery__list.js-gallery__list
+      each item in cards
+        li.gallery__item
+          +card(item, "gallery")

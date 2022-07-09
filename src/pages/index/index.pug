@@ -1,5 +1,6 @@
 extends ../../template/page
 include ../../template/page-header
+include ../../template/gallery
 
 block variables
   - json = require("../../template/norway.json");
@@ -9,3 +10,4 @@ block header
   +page-header(json)
 block main
   main.page__main
+    +gallery(json)

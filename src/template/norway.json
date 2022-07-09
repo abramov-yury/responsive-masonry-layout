@@ -1,5 +1,73 @@
 {
   "header": {
     "title": "Adventure in Norway"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "items": [
+      {
+        "title": "View from the mountain",
+        "text": "It was the view from our first house, bewitching and high. Soon it was necessary to go down by car down the mountain thickets...",
+        "name": "1",
+        "width": 1000,
+        "height": 932
+      },
+      {
+        "title": "Dark expanse",
+        "text": "Water, icy and inviting. The color from which the spirit froze...",
+        "name": "4",
+        "width": 1000,
+        "height": 1023
+      },
+      {
+        "title": "Water",
+        "text": "At the bottom, having moved down the hill, we were able to see the water for the first time. This incredible green-blue shade of icy water flowing from the mountains...",
+        "name": "2",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "title": "On top of the mountains",
+        "text": "Having driven for the first time along the serpentine to the very height, we saw a landscape of green shrubs and endless mountain peaks...",
+        "name": "3",
+        "width": 1000,
+        "height": 1007
+      },
+      {
+        "title": "Calm element",
+        "text": "And if on the ferry and inland, the dark calm element of the abyss opens...",
+        "name": "5",
+        "width": 1000,
+        "height": 986
+      },
+      {
+        "title": "Waterfall",
+        "text": "The waterfall below is light and bubbling, but we had to go to the very top along the troll stairs. With a slight sinking heart, holding the gas pedal...",
+        "name": "6",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "title": "Wild berries",
+        "text": "Handfuls of wild cranberry and blueberry bushes are scattered on the slopes of the mountains. Each berry conceals the power of mountain air and freedom...",
+        "name": "8",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "title": "In the clouds",
+        "text": "And if you climb one of the mountains, high and go to the edge of the cliff, you can see the incredible distance of the mountain ranges and the frightening veil of the abyss...",
+        "name": "9",
+        "width": 1000,
+        "height": 1333
+      },
+      {
+        "title": "Seething",
+        "text": "There was very little time left and it was important to get to the waterfall before dark. Stepping on the nearest, slippery, moss-covered stone, I started running...",
+        "name": "10",
+        "width": 1000,
+        "height": 977
+      }
+    ]
   }
 }
