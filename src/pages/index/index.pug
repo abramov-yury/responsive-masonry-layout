@@ -1,0 +1,11 @@
+extends ../../template/page
+include ../../template/page-header
+
+block variables
+  - json = require("../../template/norway.json");
+  - title = json.header.title
+
+block header
+  +page-header(json)
+block main
+  main.page__main

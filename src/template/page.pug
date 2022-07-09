@@ -1,0 +1,16 @@
+include favicon
+
+doctype html
+
+block variables
+
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    +favicon
+    link(rel="manifest", href="manifest.json")
+    title #{title}
+  body.page(data-theme="main")
+    block header
+    block main

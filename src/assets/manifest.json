@@ -1,0 +1,13 @@
+{
+  "name": "Weather",
+  "short_name": "Weather: Do I need an umbrella?",
+  "icons": [
+    { "src": "img/favicon/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "img/favicon/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#ffffff",
+  "display": "browser",
+  "scope": "/",
+  "theme_color": "#ffffff"
+}
