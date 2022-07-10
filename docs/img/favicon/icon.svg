@@ -1,0 +1,16 @@
+<svg data-name="Layer 1" id="Layer_1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .the_path{fill:none;stroke:#efcc00;stroke-linecap:round;stroke-miterlimit:10;stroke-width:3px}
+      .the_circle{fill:#efcc00}
+
+      @media(prefers-color-scheme: dark){
+        .the_path {stroke:#ffffff}
+        .the_circle{fill:#ffffff}
+      }
+    </style>
+  </defs>
+  <circle class="the_circle" cx="32" cy="32" r="17"/>
+  <path class="the_path"
+        d="M32 5v6M32 53v6M59 32h-6M11 32H5M51.09 12.91l-4.24 4.24M17.15 46.85l-4.24 4.24M51.09 51.09l-4.24-4.24M17.15 17.15l-4.24-4.24"/>
+</svg>
